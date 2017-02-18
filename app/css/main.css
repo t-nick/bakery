@@ -89,4 +89,55 @@ li.soc_block{
     bottom: -61px;
 }
 
-
+.art{
+	padding-top: 100px;
+	width: 1260px;
+	margin: 0 auto;
+	background: url(../img/grey_bg.png);
+}
+.art_title{
+	font-size: 48px;
+	font-family: 'Alegreya', serif;
+	color: #56534c;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.art_title p{
+	font-size: 14px;
+	color: #a47d5e;
+	text-transform: uppercase;
+}
+.art-decription{
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+.art_cook{
+	margin: 40px auto;
+	text-align: center;
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+.cook_block{
+	margin: 0 auto;
+	width: 380px;
+}
+.cook_foto{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-image: url(../img/cook.jpg);
+}
+.cook_name,
+.cook_foto,
+.cook_sername
+{
+	display: inline-block;
+}
+.cook_name,
+.cook_sername{
+	padding: 20px;
+	border-bottom: 1px solid #d7d5ca;
+	border-top: 1px solid #d7d5ca;
+}
