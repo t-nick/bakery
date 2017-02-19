@@ -42,6 +42,9 @@
 	height: 700px;
 	width: 700px;
 }
+.art_foto{
+	margin:60px auto 100px ;
+}
 }
 /*-------992px---------*/
 @media (max-width: 992px){
@@ -63,6 +66,9 @@ li.nav_hidden{
 }
 .title_bread{
 	left: 45%;
+}
+.art_foto img{
+	margin:0 auto ;
 }
 }
 
@@ -139,5 +145,41 @@ li.nav_hidden{
 }
 .title_bread{
 	left: 33%;
+}
+.art_block{
+	padding-top: 80px;
+}
+.art_title{
+	margin-bottom: 40px;
+}
+.art_cook{
+	margin: 30px auto;
+}
+.art_foto{
+	display: none;
+}
+.art_foto_small{
+	display: block;
+	margin-bottom: 30px;
+}
+.art_foto_small img{
+	
+	margin: 0 auto;
+}
+}
+@media (max-width: 380px){
+/*.cook_block{
+	max-width: 300px;
+}*/
+.cook_foto{
+	margin: 0 5px
+}
+.cook_name,
+.cook_sername{
+	width: 100px;
+	padding: 10px;
+}
+.cook_sign{
+	max-width: 300px;
 }
 }
