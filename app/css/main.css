@@ -258,3 +258,48 @@ li.soc_block{
 	z-index: 999;
 	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
+
+/*______BREAKFAST_____*/
+.breakfast{
+	max-width: 1600px;
+	margin: 0 auto;
+	background:url(../img/bg-menu.jpg);
+	height: 760px;
+}
+.breakfast_block{
+	width: 314px;
+	margin: 80px auto;
+	line-height: 24px;
+	text-align: center;
+}
+.breakfast_title{
+	font-size: 60px;
+	font-family: 'Alegreya', serif;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 60px;
+    line-height: 30px;
+}
+.breakfast_title span{
+	font-size: 18px;
+	color: #c8a593;
+	text-transform: uppercase;
+}
+.breakfast_item{
+	font-size: 30px;
+	font-family: 'Alegreya', serif;
+    font-weight: bold;
+    color: #fff;
+    line-height: 26px;
+}
+.breakfast_item span{
+	font-size: 20px;
+	font-weight: normal;
+}
+.prise{
+	color: #dfc691;
+	font-size: 36px;
+	font-family: 'Alegreya', serif;
+	padding-bottom: 50px;
+	padding-top: 25px;
+}
