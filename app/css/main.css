@@ -160,3 +160,101 @@ li.soc_block{
 .art_foto_small{
 	display: none;
 }
+
+
+/*____Perfect____*/
+.perfect{
+    max-width: 1600px;
+    margin: 0 auto;
+    background: url(../img/bg_perfect.jpg);
+    padding-top:140px;
+}
+.carousel{
+    width: 960px;
+    height: 512px;
+    margin-left: 90px;
+    background: #fff url(../img/melnica.jpg) no-repeat;
+	background-position: right bottom;;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.5);
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 100;
+}
+.carousel-indicators{
+    left:83%;
+    width: 360px;
+    overflow: hidden;
+}
+.carousel-indicators li,
+.carousel-indicators .active{
+    height: 90px;
+    width: 90px;
+    overflow: hidden;
+    border-radius: 50%;
+    text-indent: 0;
+	opacity: 1;
+}
+.carousel-indicators .active{
+	opacity: 0.5;
+}
+
+.catousel_title{
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.catousel_title p{
+    font-size:14px;
+    color:#a47d5e;
+    text-transform: uppercase;
+}
+.carousel-text{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+.stars{
+    margin: 40px auto 30px 0;
+}
+.glyphicon-star{
+    color: #c9b176;
+}
+.glyphicon-star.black{
+    color: #56534c;
+}
+.carousel-control.right{
+    background-image: none;
+    color: #56534c;
+    text-shadow: none;
+    top:82%;
+}
+.carousel-control.left{
+    background-image: none;
+    color: #56534c;
+    text-shadow: none;
+    top: 82%;
+    left:45%;
+}
+.carousel-control a{
+    display: block;
+}
+.glyphicon-menu-right,
+.glyphicon-menu-left{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #56534c;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+}
+.ready{
+	position: absolute;
+	height: 140px;
+	width: 140px;
+	top: 7px;
+	right: 20px;
+	z-index: 999;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
