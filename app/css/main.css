@@ -264,11 +264,11 @@ li.soc_block{
 	max-width: 1600px;
 	margin: 0 auto;
 	background:url(../img/bg-menu.jpg);
-	height: 760px;
+	height: auto;
 }
 .breakfast_block{
 	width: 314px;
-	margin: 80px auto;
+	margin: 80px auto 20px;
 	line-height: 24px;
 	text-align: center;
 }
@@ -302,4 +302,47 @@ li.soc_block{
 	font-family: 'Alegreya', serif;
 	padding-bottom: 50px;
 	padding-top: 25px;
+}
+/*_____menu and animation_____*/
+.menu_block{
+	margin-top: 90px;
+	margin-left: 180px;
+	position: relative;
+	height: 650px;
+}
+.menu_block:hover .menu_breakfast{
+	right: 600px;
+	transition: 0.5s;
+}
+.menu_block:hover .menu_lunch{
+	right: 300px;
+	transition: 0.5s;
+}
+.menu_breakfast{
+	z-index: 2;
+	position: absolute;
+	top: 0;
+	right: 32px;
+}
+
+.menu_lunch{
+	position: absolute;
+	top:15px;
+	right: 10px;
+	 z-index: 1;
+}
+.menu_lunch:hover{
+	z-index: 10;
+	transition: 0.5s;
+}
+
+.menu_dinner{
+	position: absolute;
+	top:30px;
+	right: 0px;
+}
+.menu_dinner:hover{
+	z-index: 10;
+	transition: 0.5s;
+	right: 30px;
 }

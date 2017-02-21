@@ -51,6 +51,15 @@
 .art_foto{
 	margin:60px auto 100px ;
 }
+.menu_block:hover .menu_breakfast{
+	right: 520px;
+}
+.menu_block:hover .menu_lunch{
+	right: 250px;
+}
+
+
+
 }
 /*-------992px---------*/
 @media (max-width: 992px){
@@ -107,10 +116,22 @@ li.nav_hidden{
 .carousel-control.right{
 	top: 78%;
 }
+.menu_block:hover .menu_breakfast{
+	right: 350px;
+}
+.menu_block:hover .menu_lunch{
+	right: 130px;
+}
+.breakfast_block,
+.menu_block{
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
 }
 /*-------767px---------*/
 @media (max-width: 767px){
 
+	
 .nav-logo{
 	padding-left: 20px;
 }
@@ -191,6 +212,32 @@ li.nav_hidden{
 .perfect {
     padding-top: 50px;
 }
+.menu_block{
+	height: auto;
+	margin: 0 auto;
+}
+.menu_breakfast,
+.menu_lunch,
+.menu_dinner{
+	position: relative;
+	width: 420px;
+	margin: 20px auto;
+	top:0;
+	right: 0;
+
+}
+.menu_breakfast img,
+.menu_lunch img,
+.menu_dinner img{
+	width: 100%;
+}
+.menu_lunch:hover,
+.menu_block:hover .menu_lunch,
+.menu_block:hover .menu_breakfast,
+.menu_dinner:hover{
+	transition: none;
+	right: 0;
+}
 }
 
 /*-------480px---------*/
@@ -252,11 +299,19 @@ li.nav_hidden{
 .ready{
 	display: none;
 }
+.menu_breakfast,
+.menu_lunch,
+.menu_dinner{
+	width: 340px;
+	margin: 20px auto;
 }
+.prise{
+	padding-bottom: 35px;
+}
+}
+/*________380_________*/
 @media (max-width: 380px){
-/*.cook_block{
-	max-width: 300px;
-}*/
+
 .cook_foto{
 	margin: 0 5px
 }
@@ -267,5 +322,11 @@ li.nav_hidden{
 }
 .cook_sign{
 	max-width: 300px;
+}
+.menu_breakfast,
+.menu_lunch,
+.menu_dinner{
+	width: 290px;
+	margin: 20px auto;
 }
 }
