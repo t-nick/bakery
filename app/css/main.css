@@ -346,3 +346,108 @@ li.soc_block{
 	transition: 0.5s;
 	right: 30px;
 }
+
+/*_______Sandwich________*/
+.sandwich{
+	max-width: 1600px;
+	margin: 0 auto;
+	background-color: #f3f1e9;
+	height: auto;
+}
+
+.sandwich_title{
+	font-family: 'Alegreya', serif;
+	font-weight: bold;
+	font-size: 48px;
+	color:#56534c;
+	margin-top: 90px;
+	text-align: center;
+}
+.sandwich_title p{
+	color: #a47d5e;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.products-item{
+	text-align: center;
+	margin-bottom: 55px;
+}
+.products-item-image{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	box-shadow: 2px 3px 5px (0,0,0,0.5);
+	margin: 15px auto;
+	overflow: hidden;
+}
+.products-item-title{
+	font-size: 30px;
+	font-family: 'Alegreya', serif;
+	font-weight: bold;
+	color: #a47d5e;
+}
+.products-item-title p{
+	font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+.recipe{
+	padding-top: 80px;
+	padding-left: 80px;
+	position: relative;
+	margin-bottom: 70px;
+}
+.recipe img{
+	border: 10px solid #fff;
+
+}
+.recipe_block{
+	position: absolute;
+	top:50px;
+	right: 3px;
+}
+
+.cook{
+	font-size: 18px;
+	font-family: 'Alegreya', serif;
+	font-weight: bold;
+	color: #a47d5e;
+	text-transform: uppercase;
+	text-align: center;
+	height: 200px;
+	width: 200px;
+	border: 10px solid #fff;
+	padding-top: 35px;
+	background-color: rgba(255,255,255,0.8);
+	
+}
+.cook p{
+	color: #56534c;
+	font-size: 60px;
+
+}
+.cook span{
+	font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: none;
+    color: #979285;
+}
+.readyin{
+	height: 200px;
+	width: 200px;
+}
+.recipe_button{
+	border: 1px dashed #dfc691;
+	color: #dfc691;
+	background-color: #fff;
+	text-align: center;
+	width: 170px;
+	height: 60px;
+	position: absolute;
+	bottom: -10px;
+	left: 50px;
+	font-family: 'Alegreya', serif;
+	font-weight: bold;
+	font-size: 18px;
+
+}
