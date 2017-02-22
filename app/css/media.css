@@ -57,7 +57,9 @@
 .menu_block:hover .menu_lunch{
 	right: 250px;
 }
-
+.recipe-img{
+	margin-top: 50px;
+}
 
 
 }
@@ -126,6 +128,19 @@ li.nav_hidden{
 .menu_block{
 	margin-top: 70px;
 	margin-bottom: 50px;
+}
+.recipe {
+    padding-top: 40px;
+    margin-bottom: 70px;
+
+}
+.cook,.readyin{
+	height: 150px;
+	width: 150px;
+}
+.recipe_block{
+	top:73px;
+	right: 7px;
 }
 }
 /*-------767px---------*/
@@ -238,6 +253,14 @@ li.nav_hidden{
 	transition: none;
 	right: 0;
 }
+.recipe {
+    padding-top: 35px;
+    margin-bottom: 90px;
+
+}
+.recipe_block{
+	top:60px;
+	right: 7px;
 }
 
 /*-------480px---------*/
@@ -308,6 +331,33 @@ li.nav_hidden{
 .prise{
 	padding-bottom: 35px;
 }
+.recipe,
+.recipe_block {
+    padding:0;
+    margin:0 auto;
+}
+.recipe{
+	margin-bottom: 150px;
+}
+.recipe-img{
+	display: none;
+}
+.cook,.readyin{
+	height: 200px;
+	width: 200px;
+	position: relative;
+	margin-bottom: 2px;
+	margin:0 auto;
+}
+.recipe_block{
+	position: relative;
+
+}
+.recipe_button{
+margin: 0 auto;
+left:26%;
+	bottom: -130px;
+}
 }
 /*________380_________*/
 @media (max-width: 380px){
@@ -328,5 +378,8 @@ li.nav_hidden{
 .menu_dinner{
 	width: 290px;
 	margin: 20px auto;
+}
+.recipe_button{
+left:17%;
 }
 }
