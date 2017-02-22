@@ -66,7 +66,7 @@
 		<div class="description">
 			We’re bringing you fresh ingredients every<br> day in ways you can’t resist.
 		</div>
-		<button class="title_menu">OUR MENU</button>
+		<button class="title_menu"  type="button" data-toggle="modal" data-target=".bs-example-modal-lg">OUR MENU</button>
 	</div>
 	<div class="title_bread">
 		
@@ -283,7 +283,7 @@ porttitor eu, consequat vitae.</p>
 			<div class="col-md-9">
 				<div class="recipe">
 					<img src="img/sandwich_img.jpg" class="img-responsive recipe-img" alt="sandwich_img">
-					<button class="recipe_button">FULL RECIPE</button>
+					<button class="recipe_button"  type="button" data-toggle="modal" data-target=".bs-example-modal-lg1">FULL RECIPE</button>
 					<div class="recipe_block">
 						<div class="cook">prep<p>15</p><span>mins</span></div>
 						<div class="cook">cook<p>35</p><span>mins</span></div>
@@ -295,7 +295,60 @@ porttitor eu, consequat vitae.</p>
 	</div>
 	</div>
 </section>
+<footer class="footer">
+	<div class="footer_block">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5 col-sm-5 col-xs-12">
+				<ul class="footer-menu">
+					<li><a href="#">our menu</a></li>
+					<li class="nav_hidden">~</li>
+					<li><a href="#">gallery</a></li>
+					<li class="nav_hidden">~</li>
+					<li><a href="#">culture</a></li>
+				</ul>
+			</div>	
+			<div class="col-md-2 col-sm-2 col-xs-12">
+				<img src="img/footer_logo.png" class="footer_img">
+			</div>
+			<div class="col-md-5 col-sm-5 col-xs-12">
+				<ul class="footer-menu">
+					<li><a href="#">events</a></li>
+					<li class="nav_hidden">~</li>
+					<li><a href="#">catering</a></li>
+					<li class="nav_hidden">~</li>
+					<li><a href="#">visit us</a></li>			
+				</ul>
+			</div>
+			</div>
+		</div>
+	</div>				
+</footer>
 	
+
+<!-- Large MODAL -->
+
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <img src="img/menu_vector.jpg" class="img-responsive">
+      <button type="button" class="title_menu close_m" data-dismiss="modal">Close</button>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bs-example-modal-lg1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <img src="img/recepie_sandwich.jpg" class="img-responsive">
+      <button type="button" class="title_menu close_m" data-dismiss="modal">Close</button>
+
+    </div>
+  </div>
+</div>
+
+
 <!-- ___________SCRIPTS________ -->
 <script type="text/javascript" src="bower/jquery/dist/jquery.js"></script>
 <script type="text/javascript" src="bower/bootstrap/dist/js/bootstrap.min.js"></script>
